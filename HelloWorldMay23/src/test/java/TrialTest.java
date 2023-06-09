@@ -19,4 +19,9 @@ public class TrialTest {
         System.out.println("I am a failing test that doesn't fail! YAY!");
     }
 
+    @Test
+    public static void newTest() {
+        // useless empty test
+    }
+
 }
