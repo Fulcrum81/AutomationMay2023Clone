@@ -21,7 +21,7 @@ public class TrialTest {
 
     @Test
     public static void newTest() {
-        // useless empty test
+        System.out.println("I am useless");
     }
 
 }
