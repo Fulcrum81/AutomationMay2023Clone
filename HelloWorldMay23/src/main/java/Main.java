@@ -13,10 +13,10 @@ public class Main {
         String env = scanner.nextLine();
         FileInputStream fis;
 
-        if(1 > 0) {
+        if (1 > 0) {
             System.out.println("1 is greater than 0");
         }
-            System.out.println("");
+        System.out.println("");
 
         Properties properties = new Properties();
         fis = switch (env) {
@@ -39,19 +39,12 @@ public class Main {
         System.out.println("Using username: " + username);
         System.out.println("Using password: " + username);
 
-//            HomePageTest homePageTest = new HomePageTest();
-//        LoginTest loginTest = new LoginTest();
-//
-//        homePageTest.homePageLabelsTest();
-//
-//        loginTest.incorrectCredentialsTest();
-//
-    Circle circle = new Circle(123);
+        Circle circle = new Circle(123);
 
-    //
-    printShapeArea(circle,
-            "sadkljghklsahgslkhvklsahdvsfklsjahvkl" +
-            "jsavhklsjavhklsavhlsjslkavhsl");
+        //
+        printShapeArea(circle,
+                "sadkljghklsahgslkhvklsahdvsfklsjahvkl" +
+                        "jsavhklsjavhklsavhlsjslkavhsl");
 
     }
 
